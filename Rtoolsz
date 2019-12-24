@@ -32,7 +32,7 @@ Exit
 }
 
 lagi=1
-while [ $lagi -lt 3 ];
+while [ $lagi -it 3 ];
 do
 Echo**
 Echo**
