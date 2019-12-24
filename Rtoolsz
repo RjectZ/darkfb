@@ -1,0 +1,94 @@
+#!/bin/bash
+
+Clear
+Sleep1
+Echo"Loading......"| lolcat
+Sleep 2
+Clear
+Echo"welcome"| lolcat
+Sleep2
+Clear
+Echo *================================
+Author : #0062C8 RjectZ
+Github :https://github.com/RjectZ
+Wa       :085649156981
+====================================
+
+##################################
+# CTRL + C
+##################################
+trap ctrl_c INT
+ctrl_c() {
+Clear
+Echo *[#] detected ctrl+c exit.....*
+Echo *[#] JANGAN SALAH GUNAKAN TOOLS INI*
+sleep 1
+Echo**
+Echo *[#] BLANK*
+
+Echo "thanks.....*
+Sleep 1
+Exit
+}
+
+lagi=1
+while [ $lagi -lt 3 ];
+do
+Echo**
+Echo**
+Echo *1. hack fb* | lolcat
+Echo *--------------------------------------------------* | lolcat
+Echo *2. hack camera* | lolcat
+Echo *--------------------------------------------------* | lolcat
+Echo *3. deface* | lolcat
+Echo *--------------------------------------------------* | lolcat
+Echo *4. dark fb* | lolcat
+Echo *--------------------------------------------------* | lolcat
+Echo *00. exit* | lolcat
+Echo**
+read -p *pilih no : * pill;
+
+case $pill in
+1)clear
+git clone https://github.com/sixtysix-Team/fbbrute
+cd fbbrute
+pip2 install mechanize
+python2 force.py
+
+;;
+
+2)clear
+git clone https://github.com/sixtysix-Team/camera
+cd camera
+sh camera.sh
+
+;;
+
+3)clear
+git clone https://github.com/sixtysix-Team/deface
+cd deface
+sh tebas.sh
+
+;;
+
+4)clear
+git clone https://github.com/RjectZ/darkfb
+cd darkfb
+python2 dkfb
+
+;;
+
+00)clear
+Echo *SALAM RjectZ*
+exit
+;;
+
+esac
+done
+done
+
+
+
+
+
+
